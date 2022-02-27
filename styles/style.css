@@ -1,0 +1,107 @@
+body {
+    background-color: #000000DD;
+}
+
+.body {
+    background-color: #000000AA;
+    height: auto;
+    width: 800px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.content {
+    color: #ffffff;
+    height: auto;
+    width: 700px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding-left: 25px;
+}
+
+.cookbook {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 0.2;
+}
+
+.cookbook.basic {
+    color: #ffff00DD;
+}
+
+.home-title {
+    text-align: center;
+    color: #ffffff;   
+}
+
+.title {
+    color: #ffff00DD;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    height: 350px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredient {
+    float: none;
+}
+
+.steps {
+    width: 600px;
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+li {
+    float: left;
+    line-height: 2.2;
+}
+
+.nav li {
+    padding-left: 2.2em;
+}
+
+.nav-item {
+    display: block;
+    background-color: #ffffff;
+    color: #000000DD;
+    text-align: center;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+
+.nav-item:hover {
+    background-color: #ffff00DD;
+}
+
+.nav-item.active {
+    background-color: #ffff00DD;
+}
+
+ol {
+    padding-left: 2.5em;
+}
